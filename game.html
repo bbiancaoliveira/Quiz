@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+    
+</head>
+<body>
+    <div class="containerprincipal">
+        <h1>Teste seu conhecimento</h1>
+        <img src="img/1img.jpg" alt="imagem grupo LBGTQIA">
+        <div class="questoes">
+            <div id="question">Qual é o significado da sigla LBGTQIA+?</div>
+            <div id="botoes" class="btn-grid">
+                <div class="botoes">    
+                    <p class="btn" data-number="1"></p>
+                </div>
+                <div class="botoes">
+                    <p class="btn" data-number="2"></p>
+                </div>
+                <div class="botoes">
+                    <p class="btn" data-number="3"></p>
+                </div>
+            </div>
+        </div>              
+        <div id="hud">
+            <div id="hud-item">
+                <p class="hud-prefix">Questao</p>
+                <h2 class="hud-main-text" id="questionCounter"></h2>  
+            </div>
+            <div id="hud-item">
+                <p class="hud-prefix">Pontos</p>
+                <h2 class="hud-main-text" id="score">0</h2>  
+            </div>                      
+        </div>
+
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
