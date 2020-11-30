@@ -1,0 +1,157 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif sans-serif
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    width: 100%; 
+   margin-top: 0;
+   margin-bottom: 17px;  
+    text-align: center;
+}
+
+img{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid 2px;
+}
+
+.titulo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.titulo p{
+    width: 90%;
+    margin: 20px auto 10px auto;  
+    display: block;
+    font-size: 20px;  
+}
+
+#question{
+    width: 100%;     
+    margin: 22px auto 25px 20px;
+    display: block;
+    font-size: 25px;
+    text-align: justify;    
+}
+
+.containerprincipal{
+    width: 40%;
+    margin-top: 15px;
+    margin-bottom: 0;
+    max-width: 50%;       
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px;   
+}
+
+.btn-grid{
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.botoes{   
+    width: 95%;  
+    margin-left: auto;
+    margin-right: auto;
+    display: block;   
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;      
+}
+
+.botoes p{
+    margin-left: 20px;
+}
+
+.start button{
+    background-color: rebeccapurple;
+    color: seashell;
+    padding: 8px;
+    width: 37%;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 0;
+    display: block;
+    border-color: rebeccapurple;
+    border-radius: 10px;    
+    font-size: 18px;
+
+}
+
+.correct {
+    background-color: darkgreen;
+}
+
+.incorrect {
+    background-color: darkred;
+}
+
+/*HUD*/
+
+#hud {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 19px;
+  
+}
+
+.hud-main-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+#status {
+    width: 100%;     
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 22px;
+    text-align: center;
+}
+
+.btn-end button{
+    background-color: rebeccapurple;
+    color: seashell;
+    padding: 8px;
+    width: 30%;  
+    margin-left: 70px;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: inline-block;
+    border-color: rebeccapurple;
+    border-radius: 10px;    
+    font-size: 18px;
+
+}
+
+#textofinal{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    
+
+}
