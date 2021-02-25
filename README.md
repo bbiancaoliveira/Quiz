@@ -1,4 +1,4 @@
-# Quiz
-Quiz sobre diversidade
+# Quiz LGBTQIA+
+
 
 https://bbiancaoliveira.github.io/Quiz/
